@@ -1,0 +1,64 @@
+/* //////////////////// LAYOUT \\\\\\\\\\\\\\\\\\\\ */
+
+html,body {
+	margin : 0;
+	padding : 0;
+    font : 12px/18px Arial;
+	width : 100%;
+    height : 100%;
+    background: #000;
+    color: #FFF;
+}
+
+.box{
+    /*
+    display : inline-block;
+	position : relative; */
+    width : 188px;
+}
+
+table
+{
+    width: 100%;
+}
+
+table, td, tr, th
+{
+    width: 600px;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table thead tr th
+{
+    border: 1px solid #e6e6e6;
+    padding: 8px 10px 8px;
+    line-height: 1.1em;
+}
+
+table tbody td, table tfoot td
+{
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    padding: 8px 10px;
+    line-height: 1.1em;
+}
+
+textarea {
+    background: #555;
+    color: #FFF;
+}
+
+.times {
+    font : 12px Arial;
+    text-align: center;
+}
+
+.placar {
+    font : 60px Arial;
+    text-align: center;
+    color: chartreuse;
+    background: #000;
+}

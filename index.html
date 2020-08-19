@@ -3,22 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Placar Eletrônico</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
     
 
 <div>
     <table>
-        <thead>
-            <tr>
-                <th>lado A</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Jog1</td>
-            </tr>
-        </tbody>
+        <tr>
+            <td colspan="2" class="times">LADO A</td>
+            <td></td>
+            <td colspan="2" class="times">LADO B</td>
+        </tr>
+        <tr>
+            <td>
+                <textarea id="taLadoA" name="taLadoA" rows="15" cols="15">
+                Breno (6)
+                Selminha (3)
+                Ieso (12)
+                </textarea>
+            </td>
+            <td class="placar">21</td>
+            <td>x</td>
+            <td class="placar">19</td>
+            <td>
+                <textarea id="taLadoB" name="taLadoB" rows="15" cols="15">
+                    Rodrigo (10)
+                    Robson (1)
+                    Alberto (8)
+                    </textarea>
+            </td>
+        </tr>
     </table>
 </div>
 
